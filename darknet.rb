@@ -3,7 +3,7 @@ class Darknet < Formula
   homepage "http://pjreddie.com/darknet/"
   head "https://github.com/pjreddie/darknet.git"
 
-  depends_on "opencv@2" => :build
+  depends_on "opencv@4" => :build
   depends_on "pkg-config"
 
   def install
