@@ -1,7 +1,7 @@
 class Darknet < Formula
   desc "Convolutional Neural Networks"
-  homepage "http://pjreddie.com/darknet/"
-  head "https://github.com/pjreddie/darknet.git"
+  homepage "https://github.com/AlexeyAB/darknet"
+  head "https://github.com/AlexeyAB/darknet.git"
 
   depends_on "opencv@4" => :build
   depends_on "pkg-config"
